@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a73e8;
+}
+header {
+    width: 100%;
+    height: 50px;
+}
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    position: fixed;
+    z-index: 5;
+}
+.head > img {
+    width: 120px;
+    height: 40px;
+}
+.head ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.head ul li {
+    flex: 1;
+    max-width: 140px;
+    min-width: 70px;
+}
+.head ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: gray;
+    text-decoration: none;
+}
+.head ul li a:hover {
+    border-bottom: 2px solid orange;
+}
+.landing-Page {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(227, 227, 227);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#theform {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Google-sans", sans-serif;
+    background-color: white;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#form #email {
+    width: 300px;
+    padding: 3px;
+}
+#form .email-submit {
+    width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #1a73e8;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+}
+#What_is_Firebase {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#What_is_Firebase header {
+    text-align: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+#What_is_Firebase section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#What_is_Firebase section .iconOne {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-align: center;
+    text-decoration: none;
+}
+section > .iconOne > a > img {
+    min-width: 100px;
+    min-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.buttonContenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.buttonContenter .linkButton {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a73e8;
+    color: #f3f3f3;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#What_is_Firebase h1 {
+    padding: 10px 0;
+}
+
+
+#solutions {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+#solutions h1,  #solutions h2{
+    text-align: center;
+}
+#solutions .Products {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.Products .Product {
+    flex: 1;
+    background-color: rgb(225, 165, 165);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    min-width: 300px;
+    margin: 10px 0;
+}
+.Products .Product a {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+.Products .Product a .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+}
+.Product a .info img {
+    max-width: 70%;
+}
+.Products .Product a p, .Products .Product h3 {
+    text-align: center;
+}
+.funcations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.Products .Product:hover {
+    background-color: #1a73e8;
+}
+.Products .Product a:hover {
+    background-color: rgb(227, 227, 227);
+}
+
+#Pricing {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+#Pricing header h1 {
+    text-align: center;
+}
+#Pricing .The-Table {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+.Row {
+    flex: 1;
+    min-height: 190px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Row > .buttonContenter > button {
+    width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #1a73e8;
+    color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+}
