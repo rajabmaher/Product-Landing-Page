@@ -225,21 +225,25 @@ section > .iconOne > a > img {
     text-align: center;
 }
 #Pricing .The-Table {
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(228, 228, 228);
     border-radius: 10px;
+    gap: 10px;
 }
 
 .Row {
     flex: 1;
+    background-color: rgb(228, 228, 228);
     min-height: 190px;
     border: 1px solid;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
     align-items: center;
     justify-content: center;
+    min-width: 300px;
 }
 
 
